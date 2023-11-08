@@ -5,8 +5,8 @@
 🍷 [인덱스 모음](http://zeroin01.dothome.co.kr/php03-CJJD/index.html)
 
 ## 사이트 메뉴
-🍷 [메인](http://zeroin01.dothome.co.kr/php03-CJJD/php/main/main.php)
-🍷 [로그인](http://zeroin01.dothome.co.kr/php03-CJJD/php/login/login.php)
-🍷 [회원가입](http://zeroin01.dothome.co.kr/php03-CJJD/php/join/join.php)
-🍷 [술 리뷰](http://zeroin01.dothome.co.kr/php03-CJJD/php/alcohol/alcohol.php)
-🍷 [마이페이지](http://zeroin01.dothome.co.kr/php03-CJJD/php/mypage/mypage.php)
+🍷 [메인](http://zeroin01.dothome.co.kr/php03-CJJD/php/main/main.php)   
+🍷 [로그인](http://zeroin01.dothome.co.kr/php03-CJJD/php/login/login.php)   
+🍷 [회원가입](http://zeroin01.dothome.co.kr/php03-CJJD/php/join/join.php)   
+🍷 [술 리뷰](http://zeroin01.dothome.co.kr/php03-CJJD/php/alcohol/alcohol.php)   
+🍷 [마이페이지](http://zeroin01.dothome.co.kr/php03-CJJD/php/mypage/mypage.php)   
