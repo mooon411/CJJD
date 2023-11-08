@@ -25,7 +25,7 @@
                             </span>
                         <?php } ?>
 
-                        <a id="<?= $acTop10['acId'] ?>" href="alcohol_page.php?acId=<?= $acTop10['acId'] ?>">
+                        <a id="<?= $acTop10['acId'] ?>" href="../alcohol/alcohol_page.php?acId=<?= $acTop10['acId'] ?>">
                             <img src="<?= $acTop10['acImgPath'] ?>" alt="<?= $acTop10['acName'] ?>">
                             <div class="title_hover">
                                 <p>

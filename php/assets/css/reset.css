@@ -117,3 +117,18 @@ textarea {
     outline: none;
     border: 0;
 }
+
+/* 블라인드 효과 */
+.blind {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* display none */
+.none {
+    display: none;
+}

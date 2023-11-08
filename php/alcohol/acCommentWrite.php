@@ -2,15 +2,16 @@
 include "../connect/connect.php";
 
 $acId = $_POST['acId'];
-$youId = $_POST['youId'];
 $youNick = $_POST['youNick'];
-$commentPass = $_POST['pass'];
-$commentWrite = $_POST['msg'];
+$commentMsg = $_POST['commentMsg'];
 $regTime = time();
 
-$sql = "INSERT INTO blogComment(memberId, blogId, commentName, commentPass, commentMsg, commentDelete, regTime) VALUES ('$memberId', '$blogId', '$commentName', '$commentPass', '$commentWrite', '1', '$regTime')";
+$sql = "INSERT INTO acListComment(acId, youNick, commentMsg, commentDelete, regTime) VALUES ('$acId', '$youNick', '$commentMsg', '1', '$regTime')";
 $result = $connect->query($sql);
 
-echo json_encode(array("info" => $blogId));
-
+if ($result) {
+    echo json_encode(array("info" => $acId));
+} else {
+    echo json_encode(array("error" => "댓글 저장에 실패하였습니다."));
+}
 ?>

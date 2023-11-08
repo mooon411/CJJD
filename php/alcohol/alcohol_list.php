@@ -13,8 +13,11 @@ $categoryResult = $connect->query($categorySql);
 $categoryInfo = $categoryResult->fetch_array(MYSQLI_ASSOC);
 $categoryCount = $categoryResult->num_rows;
 
-//술 정보 가져오기
-$acTopList = "SELECT * FROM drinkList ORDER BY acView DESC LIMIT 10;";
+//술 정보 가져오기 (좋아요+댓글) 많은 아이템을 조회순으로 보여줌
+$acTopList = "SELECT *, (acLike + acComment) AS like_comment_total
+              FROM drinkList
+              ORDER BY like_comment_total DESC, acView DESC
+              LIMIT 10;";
 $acRank = $connect->query($acTopList);
 ?>
 
